@@ -1,5 +1,6 @@
 FILEPATH = 'titles.txt'
 
+
 def get_titles(filepath=FILEPATH):
     """ Read a text file to return the list of Titles """
     with open(filepath, 'r') as file_local:

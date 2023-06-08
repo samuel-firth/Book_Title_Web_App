@@ -24,7 +24,6 @@ for index, title in enumerate(titles):
         del st.session_state[title]
         st.experimental_rerun()
 
-
 st.text_input(label="",
               placeholder="Enter a title",
               on_change=add_title,
